@@ -23,7 +23,7 @@ class AutorDao
 
     public function listar()
     {
-        $sql  = "SELECT * FROM $this->tabela ORDER BY id_autor = ?";
+        $sql  = "SELECT * FROM $this->tabela ORDER BY id_autor";
         $stmt = $this->connection->query($sql);
         $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
