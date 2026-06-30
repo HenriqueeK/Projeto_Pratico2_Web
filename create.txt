@@ -1,0 +1,14 @@
+CREATE TABLE autor (
+    id_autor SERIAL PRIMARY KEY,
+    nome VARCHAR(200),
+    nacionalidade VARCHAR(200),
+    dt_nascimento DATE
+);
+
+CREATE TABLE livro (
+    id_livro SERIAL PRIMARY KEY,
+    titulo VARCHAR(200),
+    autor VARCHAR(200), -- Não fiz como estrangeira pois não sabia como comunicar certo no php
+    genero VARCHAR(200),
+    n_paginas INT
+);
