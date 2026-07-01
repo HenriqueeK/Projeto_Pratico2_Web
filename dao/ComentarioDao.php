@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../model/Comentario.php';
 
-class ControlaComentario
+class ComentarioDao
 {
     private $apiUrl = 'https://6a289af14e1e783349a5b48f.mockapi.io/api/livro/aviso';
 

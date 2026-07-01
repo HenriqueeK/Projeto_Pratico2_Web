@@ -12,3 +12,7 @@ CREATE TABLE livro (
     genero VARCHAR(200),
     n_paginas INT
 );
+
+ALTER TABLE autor ADD COLUMN cep VARCHAR(9);
+ALTER TABLE autor ADD COLUMN cidade VARCHAR(100);
+ALTER TABLE autor ADD COLUMN estado VARCHAR(2);

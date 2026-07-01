@@ -21,6 +21,7 @@ if (!$livro) {
 <head>
     <meta charset="UTF-8">
     <title>Editar Livro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Editar Livro</h2>
